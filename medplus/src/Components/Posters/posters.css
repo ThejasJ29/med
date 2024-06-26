@@ -1,0 +1,9 @@
+.poster img{
+    width: 100%;
+    border-radius: 16px;
+}
+.poster{
+    margin: 25px 10px 25px 10px;
+    /* border: solid; */
+    
+}

@@ -1,0 +1,78 @@
+.address > .c-address{
+    font-size: 13px;
+    margin: 2px;
+    text-align: left;
+    margin-left:12px ;
+}
+.address .default-line{
+    font-size: 11px;
+    margin: 0;
+    margin-left:12px ;
+    text-align: left;
+}
+.Navbar2{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    padding: 10px 10px 3px 10px;
+    border-top: 0.1px solid rgb(219, 219, 219); 
+    border-bottom: 0.1px solid rgb(219, 219, 219); 
+}
+.Navbar2 > .current_location{
+    display: flex;
+    flex-direction: row;
+}
+.Navbar2 > .location_logo{
+    margin-right: 5px;
+    text-align: end;
+}
+.Navbar2 > .search-bar{
+    display: flex;
+    flex-direction: row;
+    /* border: 0.5px solid; */
+    justify-content: start;
+    width: 30vw;
+    /* background-color: aquamarine; */
+}
+.btn-custom{
+    background-color: white;
+    width: 115px;
+    padding: 5px 10px;
+    border: 0.5px solid;
+    border-radius: 0;
+    height: 80%;
+}
+
+.s-bar input[type="text"] {
+    width: 260%; 
+    height: 80%; 
+    border: 0.5px solid;
+    outline: none; 
+    padding: 8px;     
+    font-size: 14px; 
+}
+.upload-btn>button{
+    background: transparent linear-gradient(90deg, #5fefc0, #5cebc6 13%, #4cd9ed) 0 0 no-repeat padding-box;
+    padding: 8px 16px;
+    border-radius: 18px;
+}
+.cart-notifications{
+    display: flex;
+    /* border: solid; */
+    width: 10vw;
+    justify-content: space-around;
+}
+.cart-svg{
+    position: relative;
+}
+.item{
+    position: absolute;
+    right: 35px;
+    top: 88px;
+    /* background-color: red; */
+    border-radius:50%;
+    width: 15px;
+    height: 10px;
+}

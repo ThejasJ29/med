@@ -1,0 +1,36 @@
+.download-box{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* border: solid; */
+    margin: 30px;
+    border-radius: 16px;
+    align-items: center;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.078);
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.download-box .girl{
+    margin-top: 10vh;
+    width: 80%;
+    border-radius: 12px;
+}
+.apps{
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app-description{
+    font-size: 1.4rem;
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+}
+.apps h2{
+    font-weight: 600;
+    margin: 50px;
+}
+.logos img{
+    margin-right: 10px;
+}

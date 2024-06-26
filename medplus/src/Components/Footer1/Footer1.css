@@ -1,0 +1,69 @@
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "partA partB"
+        "line line line"
+        "partC partC";
+    gap: 15px; /* Adjust as needed */
+    margin: 15px;
+}
+
+.partA {
+    grid-area: partA;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.partB {
+    grid-area: partB;
+}
+
+.line {
+    grid-area: line;
+    width: 100%;
+    height: 0.3px;
+    background-color: silver;
+    margin-bottom: 10px;
+}
+
+.partC {
+    grid-area: partC;
+}
+
+.partX, .partY {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.social-logo {
+    display: flex;
+}
+
+.logoo {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.partA{
+    margin-top: 20px;
+    width: 60vw;
+}
+.headingF{
+    margin-bottom: 10px;
+    font-weight: 600;
+}

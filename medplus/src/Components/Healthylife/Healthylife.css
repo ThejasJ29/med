@@ -1,0 +1,30 @@
+.healthy-life{
+    margin:10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 50px;
+    padding-bottom: 0;
+    /* margin-bottom: 20px; */
+}
+.health-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.healthy-life h1{
+color:#fc8019;
+}
+.blog-heading{
+    color: black;
+    margin-bottom: 0px;
+}
+.blog-date{
+    color: gray;
+    margin-top: 0;
+    font-size: small;
+}
+.blog-body{
+    font-size: 0.95rem;
+    text-overflow: ellipsis;
+}

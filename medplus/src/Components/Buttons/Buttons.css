@@ -1,0 +1,33 @@
+.bars {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order,
+.help {
+    /* border: solid; */
+    width: 47vw;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.order p,
+.help p {
+    margin: 2px;
+    font-size: 1.2rem;
+}
+
+.smalld {
+    font-size: 90%;
+    color: #6c757d;
+}
+
+.order:hover,
+.help:hover {
+    color: #e71c37;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px 5px #888888;
+}

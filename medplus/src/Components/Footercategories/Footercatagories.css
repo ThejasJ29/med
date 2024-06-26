@@ -1,0 +1,129 @@
+.footerPayments img{
+    width: 50%;
+    border: none;
+}
+.footerPayments{
+    margin: 15px;
+}
+.modes img{
+    width: 50%;
+    
+}
+.modes{
+    display: flex;
+    width: 6vw;
+    /* border: solid; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    box-shadow: 0.25px 0.25px .0px 0.25px #888888;
+    button{
+        border: 0;
+        background-color: inherit;
+    }
+}
+.modes:hover{
+    box-shadow: 1px 1px .8px 1px #888888;
+}
+
+.payment-modes{
+    display: flex;
+}
+.footerCategories{
+    margin: 10px;
+    margin-top: 20px;
+    /* height: 120vh; */
+    display: flex;
+
+}
+.sub-heading{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.itemslist{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    ul{
+        /* border: solid; */
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        color: grey;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        li {
+                margin: 2px;
+                display: flex;
+                flex-wrap: nowrap;
+                /* padding: 0; */
+            }
+
+        a{
+            /* padding: 0; */
+            color: grey;
+            margin: 1px;
+        }
+    }
+}
+.main-heading{
+    margin-top: 15px;
+}
+.Cat12{
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+.small-para{
+    font-size: .8rem;
+    margin-top: 12px;
+    span{
+        font-weight: 600;
+    }
+}
+.about-medplus{
+    margin: 15px;
+    .sub-heading{
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+}
+.itemslist a:hover {
+    color: red;
+}
+.reasons-for-medplus{
+    margin: 15px;
+    .reason{
+        /* border: solid; */
+        width: 100%;
+        margin-top: 12px;
+        font-size: 0.8rem;
+        span{
+            font-weight: 600;
+        }
+        a{
+            text-decoration: underline;
+            color: red;
+        }
+    }
+}
+.small-text{
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    a{
+        text-decoration: underline;
+        color: red;
+    }
+}

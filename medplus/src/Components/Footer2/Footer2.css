@@ -1,0 +1,13 @@
+.footer2{
+    background-color: #343a40;
+    font-size: 0.8rem;
+    padding: 1px 0.5px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul li a{
+        color: white;
+        border-left: 15px;
+    }
+}
